@@ -1,5 +1,5 @@
 const versionNode = document.querySelector("#version");
 
 if (versionNode) {
-  versionNode.title = `Repaired v4 automatic deploy rendered at ${new Date().toISOString()}`;
+  versionNode.title = `Broken v5 safety test rendered at ${new Date().toISOString()}`;
 }
