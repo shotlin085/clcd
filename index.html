@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CLCD Static CI/CD v4</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">ShotOps CI/CD verification</p>
+        <h1 id="page-title">CLCD static landing page v4</h1>
+        <p class="lede">
+          Version 4 restores the missing entry file after the failed v3 safety test.
+          ShotOps should keep the old website live when CI fails, then deploy this
+          repaired commit automatically after GitHub Actions passes.
+        </p>
+        <div class="status-grid" aria-label="Deployment test details">
+          <article>
+            <span>Version</span>
+            <strong id="version">v4</strong>
+          </article>
+          <article>
+            <span>Safety test</span>
+            <strong>v3 blocked</strong>
+          </article>
+          <article>
+            <span>Trigger</span>
+            <strong>GitHub push</strong>
+          </article>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

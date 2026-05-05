@@ -4,9 +4,10 @@
   --muted: #647069;
   --panel: rgba(255, 255, 255, 0.86);
   --line: rgba(21, 34, 27, 0.14);
-  --accent: #0f766e;
-  --wash-a: #d9f7ef;
-  --wash-b: #f4edc9;
+  --accent: #2563eb;
+  --success: #15803d;
+  --wash-a: #e0f2fe;
+  --wash-b: #dcfce7;
 }
 
 * {
@@ -34,7 +35,7 @@ body {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
-  box-shadow: 0 24px 80px rgba(15, 118, 110, 0.14);
+  box-shadow: 0 24px 80px rgba(37, 99, 235, 0.14);
 }
 
 .eyebrow {
@@ -90,6 +91,10 @@ h1 {
   display: block;
   margin-top: 9px;
   font-size: 1.35rem;
+}
+
+.status-grid article:nth-child(2) strong {
+  color: var(--success);
 }
 
 @media (max-width: 700px) {
